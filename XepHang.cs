@@ -33,7 +33,7 @@ namespace Game_test_2
 
         private void LoadBangXepHang()
         {
-            string filePath = "xep_hang.txt";
+            string filePath = Path.Combine(Application.StartupPath, "xep_hang.txt");
             dataGridView1.Rows.Clear(); 
 
             try // Bọc trong try-catch để bắt lỗi nếu file txt bị khóa hoặc lỗi định dạng

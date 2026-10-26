@@ -131,6 +131,9 @@
     <None Include="Resources\hole-3.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="xep_hang.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\amthanh.jpg" />
     <Content Include="Resources\nhacnengame.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
