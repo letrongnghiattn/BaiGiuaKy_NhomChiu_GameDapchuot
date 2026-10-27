@@ -48,6 +48,7 @@
             // 
             // bttBatDau
             // 
+            this.bttBatDau.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.bttBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.bttBatDau.Location = new System.Drawing.Point(718, 164);
             this.bttBatDau.Margin = new System.Windows.Forms.Padding(6);
@@ -60,6 +61,7 @@
             // 
             // bttXepHang
             // 
+            this.bttXepHang.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.bttXepHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.bttXepHang.Location = new System.Drawing.Point(717, 321);
             this.bttXepHang.Margin = new System.Windows.Forms.Padding(6);
@@ -72,6 +74,7 @@
             // 
             // bttThoat
             // 
+            this.bttThoat.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.bttThoat.BackColor = System.Drawing.Color.Khaki;
             this.bttThoat.Location = new System.Drawing.Point(717, 478);
             this.bttThoat.Margin = new System.Windows.Forms.Padding(6);
@@ -84,6 +87,7 @@
             // 
             // bttNhom
             // 
+            this.bttNhom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.bttNhom.BackColor = System.Drawing.Color.LightCoral;
             this.bttNhom.Location = new System.Drawing.Point(57, 563);
             this.bttNhom.Margin = new System.Windows.Forms.Padding(6);
@@ -96,14 +100,17 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(133, 42);
+            this.label1.Location = new System.Drawing.Point(139, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(613, 77);
             this.label1.TabIndex = 4;
             this.label1.Text = "Game: Đập chuột vui nhộn!";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
